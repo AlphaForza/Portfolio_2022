@@ -1,0 +1,103 @@
+.app__contact {
+  padding: 5rem 6rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .app__contact {
+    padding: 4rem 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2.5rem 1rem;
+  }
+}
+
+.app__contact-text .head-text {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.app__contact-text p {
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.app__contact-text svg {
+  font-size: 2rem;
+  margin-right: .7rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .app__contact-text {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+.app__contact-form h2 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.app__contact-form form .app__input {
+  padding: 0.5rem 0.5rem;
+  background-color: #31313F;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app__contact-form form .app__input label {
+  color: var(--light-color);
+  font-size: .9rem;
+}
+
+.app__contact-form form .app__input input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 1rem 0.5rem;
+}
+
+.app__contact-form form .message {
+  padding: 2rem .5rem;
+}
+
+.app__contact-form .btn-form {
+  padding: 1rem 4rem;
+  margin-top: 1rem;
+  background-color: var(--primary-color);
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Contact.css.map */

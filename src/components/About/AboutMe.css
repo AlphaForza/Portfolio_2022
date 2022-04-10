@@ -1,0 +1,148 @@
+.app__about {
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.app__about .app__about-desc {
+  width: 100%;
+}
+
+.app__about .app__about-desc h3 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__about .app__about-desc .p-text-desc {
+  color: #fff;
+  font-size: .9rem;
+}
+
+.app__about .app__about-desc .app__about-desc-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .app__about .app__about-desc .app__about-desc-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.app__about .app__about-desc .app__about-desc-text h2 {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.app__about .app__about-desc .app__about-desc-text p {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .app__about .app__about-desc .app__about-desc-text p {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+.app__about .app__about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .app__about .app__about-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.app__about .app__about-content .app__about-card {
+  width: 250px;
+  height: 250px;
+  background-color: var(--low-color);
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+  .app__about .app__about-content .app__about-card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 90%;
+  }
+}
+
+.app__about .app__about-content .app__about-card h3 {
+  text-transform: uppercase;
+  color: #fff;
+  margin: .1rem 0;
+  font-size: 1.1rem;
+}
+
+.app__about .app__about-content .app__about-card img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.app__about .app__about-content .app__about-card:hover {
+  background-color: var(--primary-color);
+}
+/*# sourceMappingURL=AboutMe.css.map */
